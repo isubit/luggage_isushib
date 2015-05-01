@@ -11,10 +11,10 @@ function luggage_isushib_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'administer pubcookie site access'.
-  $permissions['administer isushib site access'] = array(
-    'name' => 'administer isushib site access',
+  $permissions['administer shibboleth site access'] = array(
+    'name' => 'administer shibboleth site access',
     'roles' => array(
-      'isushib user admin' => 'isushib user admin',
+      'shibboleth user admin' => 'shibboleth user admin',
     ),
     'module' => 'isushibsiteaccess',
   );
