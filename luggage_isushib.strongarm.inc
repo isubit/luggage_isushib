@@ -56,7 +56,7 @@ function luggage_isushib_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'isushib_login_dir';
-  $strongarm->value = 'isushib';
+  $strongarm->value = 'shibboleth';
   $export['isushib_login_dir'] = $strongarm;
 
   $strongarm = new stdClass();
