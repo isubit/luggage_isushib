@@ -10,10 +10,10 @@
 function luggage_isushib_user_default_roles() {
   $roles = array();
 
-  // Exported role: isushib user admin.
+  // Exported role: shibboleth user admin.
   $roles['shibboleth user admin'] = array(
     'name' => 'shibboleth user admin',
-    'weight' => 8,
+    'weight' => 9,
   );
 
   return $roles;
